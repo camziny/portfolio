@@ -3,14 +3,18 @@ import { LinkedIn } from "@material-ui/icons";
 import { GitHub } from "@material-ui/icons";
 import { Email } from "@material-ui/icons";
 import "../style/Home.css";
+import SkillTile from "../components/SkillTile";
+import { FrontEndSkillsList } from "../components/FrontEndSkillsList";
+import { BackEndSkillsList } from "../components/BackEndSkillsList";
+import { LanguagesList } from "../components/LanguagesList";
 
 const Home = () => {
     return (
         <div className="home">
             <div className="about">
-                <h2> Hi, My Name is Cam.</h2>
+                <h2> Cameron Ziny</h2>
                 <div className="myIntro">
-                    <p>A software developer...</p>
+                    <p>Full-Stack Software Developer</p>
                     <a
                         className="linkedIn-link"
                         href="https://www.linkedin.com/in/cameron-ziny/"
@@ -35,27 +39,52 @@ const Home = () => {
                 </div>
             </div>
             <div className="skills">
-                <h1>Skills</h1>
-                <ol className="skillsList">
-                    <li className="skillItem">
-                        <h2>Front-End</h2>
-                        <span>
-                            React.js, Angular, Redux, React Native, HTML, CSS,
-                            NPM, Foundation, MaterialUI, Yarn
-                        </span>
-                    </li>
-                    <li className="skillItem">
-                        <h2>Back-End</h2>
-                        <span>
-                            Node.js, Express.js, GraphQL, MySQL, MongoDB,
-                            DynamoDB, AWS S3
-                        </span>
-                    </li>
-                    <li className="skillItem">
-                        <h2>Programming Languages</h2>
-                        <span>JavaScript, TypeScript</span>
-                    </li>
-                </ol>
+                <div className="my-skills">
+                    <b>My Skills</b>
+                </div>
+                <br></br>
+                <div className="skills-list">
+                    <div className="skill-header">Front-End</div>
+                    {FrontEndSkillsList.map((skillObject, index) => {
+                        return (
+                            <SkillTile
+                                id={index}
+                                key={index}
+                                name={skillObject.name}
+                                image={skillObject.image}
+                                onClick={skillObject.link}
+                            />
+                        );
+                    })}
+                </div>
+                <div className="skills-list">
+                    <div className="skill-header">Back-End</div>
+                    {BackEndSkillsList.map((skillObject, index) => {
+                        return (
+                            <SkillTile
+                                id={index}
+                                key={index}
+                                name={skillObject.name}
+                                image={skillObject.image}
+                                onClick={skillObject.link}
+                            />
+                        );
+                    })}
+                </div>
+                <div className="skills-list">
+                    <div className="skill-header">Programming Languages</div>
+                    {LanguagesList.map((skillObject, index) => {
+                        return (
+                            <SkillTile
+                                id={index}
+                                key={index}
+                                name={skillObject.name}
+                                image={skillObject.image}
+                                onClick={skillObject.link}
+                            />
+                        );
+                    })}
+                </div>
             </div>
         </div>
     );

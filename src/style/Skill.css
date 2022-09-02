@@ -1,45 +1,4 @@
-.home {
-    width: 100%;
-    align-items: center;
-    font-family: "Arial", sans-serif;
-    color: #3e497a;
-  }
-  
-  .about {
-    width: 100%;
-    height: calc(100vh - 100px);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: #21325e;
-    color: #f0f0f0;
-  }
-  
-  .about h2 {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 80px;
-    color: #A6E1FA;
-    height: 50px;
-  }
-  
-  .about .myIntro {
-    width: 40%;
-    font-size: 30px;
-  }
-  .myIntro svg {
-    font-size: 60px;
-    margin: 5px;
-    color: white;
-  }
-  .my-skills {
-    font-size: xx-large;
-    margin-top: 20px;
-    margin-bottom: 50px;
-  }
-  
-  .skills {
+.skills {
     width: 100%;
     height: auto;
     display: flex;
@@ -50,28 +9,23 @@
 .skills .skillTitle {
     text-align: center;
     color: #3e497a;
-    font-size: 200px;
+    font-size: 20px;
     font-weight: bolder;
 }
 
-.skill-header {
-  font-size: x-large;
-  text-align: center;
-  margin-bottom: 10px;
-}
-
 .skillsList {
-    width: 70vw;
-    height:min-content;
+    width: 300vw;
+    height: auto;
     display: grid;
-    grid-template-columns: 200px 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
 }
 
 .skillTile {
     border-radius: 15px;
     width: 100px;
     height: 100px;
-    margin: 70px;
+    margin: 40px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
@@ -88,16 +42,17 @@
     height: 100px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size:auto;
+    background-size: cover;
 }
 
 .skillTile h1 {
-    font-size: 25px;
+    font-size: 15px;
 }
 
 @media only screen and (max-width: 1300px) {
     .skillList {
         grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
     }
 }
 
@@ -109,10 +64,10 @@
 
 @media only screen and (max-width: 800px) {
     .skillList {
-        width: 80%;
+        width: 100%;
     }
     .skillTile {
-        width: 50px;
-        height: 50px;
+        width: 100px;
+        height: 00px;
     }
 }
