@@ -1,15 +1,16 @@
-import React from "react"
+import React from "react";
+import "../style/Skill.css"
 
 const SkillTile = ({ image, name }) => {
     return (
         <div className="skillTile">
             <div
-            style={{ backgroundImage: `url(${image})` }}
-            className="bgImage"
+                style={{ backgroundImage: `url(${image})` }}
+                className="bgImage"
             />
-            {name}
+            <div className="skill-name">{name}</div>
         </div>
-    )
-}
+    );
+};
 
-export default SkillTile
+export default SkillTile;

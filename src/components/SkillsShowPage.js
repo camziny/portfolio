@@ -13,7 +13,7 @@ const SkillsShowPage = () => {
     return (
         <div>
             <div className="skill">
-            <h5>{frontEndSkill.name}</h5>
+            <div className="skill-name">{frontEndSkill.name}</div>
             <img src={frontEndSkill.image}>
                 <a className="front-end-skill-link" href={frontEndSkill.link} target="_blank">
                 </a>

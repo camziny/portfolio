@@ -6,7 +6,7 @@ import html from "../assets/html.png"
 import css from "../assets/css3.png"
 import npm from "../assets/npm.png"
 import foundation from "../assets/foundation.png"
-import materialUI from "../assets/materialUI.textClipping"
+import materialUI from "../assets/materialUI.png"
 
 
 export const FrontEndSkillsList = [
