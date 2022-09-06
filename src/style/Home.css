@@ -15,6 +15,7 @@
     text-align: center;
     background-color: #21325e;
     color: #f0f0f0;
+    margin: auto;
   }
   
   .about h2 {
@@ -22,11 +23,13 @@
     font-size: 80px;
     color: #A6E1FA;
     height: 50px;
+    margin: auto;
   }
   
   .about .myIntro {
     width: 40%;
     font-size: 30px;
+    margin: auto;
   }
   .myIntro svg {
     font-size: 60px;
@@ -129,23 +132,23 @@
 }
 
 @media only screen and (max-width: 1300px) {
-    .skillList {
-        grid-template-columns: 1fr 1fr;
-    }
+  .skillList {
+      grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media only screen and (max-width: 800px) {
-    .skillList {
-        grid-template-columns: 1fr;
-    }
+  .skillList {
+      grid-template-columns: 1fr;
+  }
 }
 
 @media only screen and (max-width: 800px) {
-    .skillList {
-        width: 80%;
-    }
-    .skillTile {
-        width: 50px;
-        height: 50px;
-    }
+  .skillList {
+      width: 80%;
+  }
+  .skillTile {
+      width: 50px;
+      height: 50px;
+  }
 }
