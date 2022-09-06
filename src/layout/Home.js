@@ -69,7 +69,7 @@ const Home = () => {
                     })}
                 </div>
                 <div className="language-skills-column">
-                    <div className="skill-header">Programming Languages</div>
+                    <div className="skill-header">Languages</div>
                     {LanguagesList.map((skillObject, index) => {
                         return (
                             <SkillTile

@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 .skills .skillTitle {
     text-align: center;
@@ -54,23 +54,28 @@
 
 @media only screen and (max-width: 1300px) {
     .skillList {
-        grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     }
 }
 
 @media only screen and (max-width: 800px) {
-    .skillList {
+    .skillsList {
         grid-template-columns: 1fr;
     }
 }
 
 @media only screen and (max-width: 800px) {
-    .skillList {
+    .skills {
+        display: inline-flex;
+        font-size: 12px;
         width: 100%;
     }
+    .skillsList {
+        width: 100%;
+        display: flex;
+    }
     .skillTile {
-        width: 28%;
-        height: 28%;
+        width: 60%;
+        height: 5%;
     }
 }
