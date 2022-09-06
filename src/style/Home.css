@@ -3,6 +3,7 @@
     align-items: center;
     font-family: "Arial", sans-serif;
     color: #3e497a;
+    margin: auto;
   }
   
   .about {
@@ -33,7 +34,7 @@
   }
   .myIntro svg {
     font-size: 60px;
-    margin: 5px;
+    margin: auto;
     color: white;
   }
   .my-skills {
@@ -145,7 +146,7 @@
 
 @media only screen and (max-width: 800px) {
   .skillList {
-      width: 80%;
+      width: 100%;
   }
   .skillTile {
       width: 50px;
