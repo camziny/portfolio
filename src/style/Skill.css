@@ -1,5 +1,6 @@
 .skills {
-    width: 100%;
+    margin-inline: auto;
+    width: min(90%, 70.5rem);
     height: auto;
     display: flex;
     justify-content: center;
@@ -14,17 +15,16 @@
 }
 
 .skillsList {
-    width: 300vw;
-    height: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    margin-inline: auto;
+    width: min(90%, 70.5rem);
 }
 
 .skillTile {
     border-radius: 15px;
     width: 100px;
     height: 100px;
-    margin: 40px;
+    margin-inline: auto;
+    margin: 30px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
@@ -65,17 +65,11 @@
 }
 
 @media only screen and (max-width: 800px) {
-    .skills {
-        display: inline-flex;
-        font-size: 12px;
-        width: 100%;
-    }
-    .skillsList {
-        width: 100%;
-        display: flex;
-    }
     .skillTile {
-        width: 60%;
-        height: 5%;
+        margin-inline: auto;
+        padding: 0%;
+    }
+    .bgImage {
+        display: block;
     }
 }

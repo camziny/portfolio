@@ -14,7 +14,7 @@ const Home = () => {
             <div className="about">
                 <h2> Cameron Ziny</h2>
                 <div className="myIntro">
-                    <p>Full-Stack Software Developer</p>
+                    <h4>Full-Stack Software Developer</h4>
                     <a
                         className="linkedIn-link"
                         href="https://www.linkedin.com/in/cameron-ziny/"

@@ -1,7 +1,7 @@
 .footer {
     width: 100%;
     height: 200px;
-    background: #00072D;
+    background: #00072d;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,5 +24,8 @@
 @media only screen and (max-width: 600px) {
     .footer svg {
         font-size: 50px;
+    }
+    .socialMedia svg {
+        margin: auto;
     }
 }

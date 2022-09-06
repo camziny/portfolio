@@ -9,7 +9,7 @@
 
 .project h1 {
     margin-top: 60px;
-    color: #001C55;
+    color: #001c55;
     font-size: 35px;
 }
 .project img {
@@ -26,6 +26,59 @@
 
 .project svg {
     font-size: 60px;
-    color: #001C55;
+    color: #001c55;
     margin: auto;
+}
+
+@media screen and (max-width: 1300px) {
+    .project {
+        margin-top: 20px;
+        margin-bottom: 5px;
+        font-size: 1px;
+    }
+    .project p {
+        font-size: 24px;
+    }
+    .project img {
+        width: auto;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .project {
+        margin-top: 20px;
+        margin-bottom: 5px;
+        font-size: 1px;
+    }
+    .project p {
+        font-size: 24px;
+    }
+    .project img {
+        width: auto;
+    }
+}
+@media screen and (max-width: 800px) {
+    .project {
+        margin-top: 20px;
+        margin-bottom: 5px;
+        font-size: 1px;
+    }
+    .project p {
+        font-size: 24px;
+    }
+    .project img {
+        width: auto;
+    }
+}
+@media screen and (max-width: 500px) {
+    .project {
+        margin-top: 100px;
+        margin-bottom: 10px;
+        font-size: 1px;
+    }
+    .project p {
+        font-size: 24px;
+    }
+    .project img {
+        width: auto;
+    }
 }
