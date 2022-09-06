@@ -139,6 +139,12 @@
     }
     .about h2 {
         margin-top: 200px;
+        font-size: 80px;
+    }
+    .myIntro svg {
+        margin-top: 20px;
+        font-size: 80px;
+        margin-bottom: 100px;
     }
 }
 
@@ -148,11 +154,49 @@
     }
     .about h2 {
         margin-top: 200px;
+        font-size: 72px;
+    }
+    .myIntro svg {
+        margin-top: 20px;
+        font-size: 80px;
     }
 }
 @media only screen and (max-width: 800px) {
+    .about h2 {
+        font-size: 48px;
+    }
     .myIntro h4 {
-        margin-top: 100px;
+        margin-top: 50px;
+        font-size: 24px;
+    }
+    .myIntro svg {
+        margin-top: 20px;
+        font-size: 50px;
+    }
+    .skill-header {
+        font-size: 18px;
+    }
+    .front-end-skills-column,
+    .back-end-skills-column,
+    .language-skills-column {
+        display: block;
+        width: min(50%, 5.5rem);
+        font-size: 15px;
+        border: 1px thin;
+        margin: 8px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .about h2 {
+        font-size: 40px;
+    }
+    .myIntro h4 {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .myIntro svg {
+        margin-top: 10px;
+        font-size: 40px;
     }
     .skill-header {
         font-size: 18px;
