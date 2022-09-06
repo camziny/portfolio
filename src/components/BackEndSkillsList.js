@@ -3,7 +3,7 @@ import node from "../assets/nodejs.png"
 import express from "../assets/expressJS.png"
 import graphQL from "../assets/graphql.png"
 import mySql from "../assets/mysql.png"
-import mongoDB from "../assets/mongodb.png"
+import mongoDB from "../assets/mongoDB.png"
 import dynamoDB from "../assets/dynamoDB.png"
 import aws from "../assets/aws.png"
 

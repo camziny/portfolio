@@ -38,12 +38,9 @@ const Home = () => {
                     </a>
                 </div>
             </div>
+            <div className="my-skills">My Skills</div>
             <div className="skills">
-                <div className="my-skills">
-                    <b>My Skills</b>
-                </div>
-                <br></br>
-                <div className="skills-list">
+                <div className="front-end-skills-column">
                     <div className="skill-header">Front-End</div>
                     {FrontEndSkillsList.map((skillObject, index) => {
                         return (
@@ -57,11 +54,11 @@ const Home = () => {
                         );
                     })}
                 </div>
-                <div className="skills-list">
+                <div className="back-end-skills-column">
                     <div className="skill-header">Back-End</div>
                     {BackEndSkillsList.map((skillObject, index) => {
                         return (
-                            <SkillTile
+                        <SkillTile
                                 id={index}
                                 key={index}
                                 name={skillObject.name}
@@ -71,7 +68,7 @@ const Home = () => {
                         );
                     })}
                 </div>
-                <div className="skills-list">
+                <div className="language-skills-column">
                     <div className="skill-header">Programming Languages</div>
                     {LanguagesList.map((skillObject, index) => {
                         return (

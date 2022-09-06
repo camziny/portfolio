@@ -18,7 +18,6 @@
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    place-items: center;
 }
 
 .skillTile {
@@ -43,6 +42,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.skill-name {
+    margin-top: 5px;
 }
 
 .skillTile h1 {
