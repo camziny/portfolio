@@ -9,15 +9,23 @@ const ProjectShowPage = () => {
     const project = ProjectsList[id];
     return (
         <div className="project">
+            <section>
             <h1>{project.name}</h1>
+            </section>
+            <section>
             <img src={project.image} />
+            </section>
+            <section className="bg-neutral">
             <p>{project.skills}</p>
+            </section>
+            <section>
             <a className="project-link" href={project.link} target="_blank">
                 <Link />
             </a>
             <a className="github-link" href={project.github} target="_blank">
                 <GitHub />
             </a>
+            </section>
         </div>
     );
 };

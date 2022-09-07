@@ -11,6 +11,7 @@ import { LanguagesList } from "../components/LanguagesList";
 const Home = () => {
     return (
         <div className="home">
+            <section className="bg-dark">
             <div className="about">
                 <h2> Cameron Ziny</h2>
                 <div className="myIntro">
@@ -36,8 +37,10 @@ const Home = () => {
                     >
                         <Email />
                     </a>
+                    </div>
                 </div>
-            </div>
+            </section>
+            <section className="bg-light">
             <div className="my-skills">My Skills</div>
             <div className="skills">
                 <div className="front-end-skills-column">
@@ -49,7 +52,7 @@ const Home = () => {
                                 key={index}
                                 name={skillObject.name}
                                 image={skillObject.image}
-                                onClick={skillObject.link}
+                                onClick= {skillObject.link}
                             />
                         );
                     })}
@@ -82,7 +85,8 @@ const Home = () => {
                         );
                     })}
                 </div>
-            </div>
+                </div>
+            </section>
         </div>
     );
 };
