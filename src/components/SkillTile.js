@@ -7,7 +7,7 @@ const SkillTile = ({ image, name, link }) => {
             <div
                 style={{ backgroundImage: `url(${image})` }}
                 className="bgImage"
-            />
+                />
             <div className="skill-name">{name}</div>
         </div>
     );
