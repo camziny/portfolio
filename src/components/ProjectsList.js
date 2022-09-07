@@ -21,8 +21,8 @@ export const ProjectsList = [
     {
         name: "Personal Portfolio",
         image: portfolio,
-        skills: "Created a responsive and minimalist React app using custom CSS, in order to display my experience, projects, and current skill set.",
-        link: "camziny.com",
+        skills: "Created minimalist React app using custom CSS and Responsive Design, in order to display my experience, projects, and current skill set.",
+        link: "/",
         github: "https://github.com/camziny/portfolio"
     }
 ]

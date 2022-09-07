@@ -1,7 +1,7 @@
 import React from "react";
 import "../style/Skill.css"
 
-const SkillTile = ({ image, name }) => {
+const SkillTile = ({ image, name, link }) => {
     return (
         <div className="skillTile">
             <div

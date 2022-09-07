@@ -1,7 +1,65 @@
+:root {
+    --clr-primary-200: #a6e1fa;
+    --clr-primary-400: #0e6ba8;
+
+    --clr-neutral-100: #e8e8e8;
+    --clr-neutral-900: #21325e;
+
+    --ff-primary: "Coolvetica";
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+h2,
+h3,
+p {
+    margin-bottom: 1em;
+}
+
+p {
+    margin: 0;
+    text-align: center;
+}
+
+section {
+    padding: 1rem 0;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    margin-inline: auto;
+    width: min(90%, 70.5rem);
+    text-align: center;
+}
+
+.bg-light {
+    background-color: var(--clr-primary-200);
+}
+.bg-primary {
+    background-color: var(--clr-primary-400);
+}
+.bg-dark {
+    background-color: var(--clr-neutral-900);
+}
+
 .home {
     width: 100%;
     align-items: center;
-    font-family: "Arial", sans-serif;
+    font-family: var(--ff-primary);
     color: #3e497a;
     margin: auto;
 }
@@ -14,22 +72,23 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #21325e;
+    background-color: var(--clr-neutral-900);
     color: #f0f0f0;
-    margin: auto;
+    margin-top: 0;
 }
 
 .about h2 {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--ff-primary);
     font-size: 80px;
-    color: #a6e1fa;
+    color: var(--clr-primary-200);
     height: 50px;
+    animation: fadeIn 1s 1.8s backwards;
 }
 
 .about .myIntro {
     width: 40%;
     font-size: 30px;
-    margin-bottom: auto;
+    animation: fadeInAnimation 1s 1.8s backwards;
 }
 .myIntro svg {
     font-size: 60px;
@@ -38,9 +97,9 @@
 }
 .my-skills {
     font-size: 48px;
-    margin-top: 20px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
     text-align: center;
+    margin-inline: auto;
 }
 
 .skills {
@@ -48,12 +107,14 @@
     height: auto;
     display: flex;
     box-sizing: border-box;
+    margin-inline: auto;
 }
 .skills .skillTitle {
     text-align: center;
     color: #3e497a;
     font-size: 200px;
     font-weight: bolder;
+    margin-inline: auto;
 }
 
 .skill-header {
@@ -79,6 +140,7 @@
     align-items: center;
     margin: 10px;
     background-color: #e8e8e8;
+    margin-inline: auto;
 }
 .back-end-skills-column {
     flex: 4;
@@ -122,6 +184,7 @@
 .skillTile .bgImage {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    margin-inline: auto;
     width: 100%;
     height: 100px;
     background-position: center;

@@ -6,6 +6,7 @@ import "../style/Footer.css";
 
 const Footer = () => {
     return (
+            
         <div className="footer">
             <div className="socialMedia">
                 <a
@@ -46,6 +47,7 @@ const Footer = () => {
             </div>
             <p> &copy; 2022 camziny.com</p>
         </div>
+        
     );
 };
 
