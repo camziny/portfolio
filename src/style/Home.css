@@ -5,7 +5,7 @@
     --clr-neutral-100: #e8e8e8;
     --clr-neutral-900: #21325e;
 
-    --ff-primary: "Coolvetica";
+    --ff-primary: 'Arial', 'Helvetica', sans-serif;
 }
 *,
 *::before,
