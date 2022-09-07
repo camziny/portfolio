@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    font-family: "Coolvetica";
+    font-family: 'Helvetica', sans-serif;
 }
 .skills .skillTitle {
     text-align: center;
