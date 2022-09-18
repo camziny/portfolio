@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectTile from "../components/ProjectTile";
 import { ProjectsList } from "../components/ProjectsList";
+import "../style/Projects.css"
 
 const Projects = () => {
     return (
