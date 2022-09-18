@@ -2,8 +2,17 @@ import React from "react"
 import myFC from '../assets/myFC.png'
 import tripLogo from '../assets/tripLogo.png'
 import portfolio from "../assets/portfolio.png"
+import zfit from "../assets/zfit.png"
 
 export const ProjectsList = [
+    {
+        name: "z-fit",
+        image: zfit,
+        skills: "Fitness Mobile app created using React Native, useContext API, Responsive Design, and custom StyleSheet Objects.",
+        link: "https://apps.apple.com/us/app/z-fit-app/id1645436117",
+        github:"https://github.com/camziny/z-fit"
+
+    },
     {
         name: "myFc",
         image: myFC,
