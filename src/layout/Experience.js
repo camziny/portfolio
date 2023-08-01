@@ -12,14 +12,41 @@ const Experience = () => {
       <VerticalTimeline lineColor="#00072D">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2010 - 2014"
+          date="2023"
           iconStyle={{ background: "#00072D", color: "#fff" }}
-          icon={<SchoolOutlined />}
+          icon={<WorkOutlined />}
+        >
+          <h3 className="vertical-timeline-element-title">myTindy</h3>
+          <p>Software Development Intern</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2023"
+          iconStyle={{ background: "#00072D", color: "#fff" }}
+          icon={<WorkOutlined />}
         >
           <h3 className="vertical-timeline-element-title">
-            Sacred Heart University
+            Innovators for Purpose
           </h3>
-          <p>Business Administration</p>
+          <p>Instructor, Fundamentals of Web Development</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2023"
+          iconStyle={{ background: "#00072D", color: "#fff" }}
+          icon={<WorkOutlined />}
+        >
+          <h3 className="vertical-timeline-element-title">Scale AI</h3>
+          <p>AI Trainer, Computer Science and Software Development</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2022"
+          iconStyle={{ background: "#00072D", color: "#fff" }}
+          icon={<WorkOutlined />}
+        >
+          <h3 className="vertical-timeline-element-title">Launch Academy</h3>
+          <p>Apprentice Full-Stack Developer</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -34,21 +61,14 @@ const Experience = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2022"
+          date="2010 - 2014"
           iconStyle={{ background: "#00072D", color: "#fff" }}
-          icon={<WorkOutlined />}
+          icon={<SchoolOutlined />}
         >
-          <h3 className="vertical-timeline-element-title">Launch Academy</h3>
-          <p>Apprentice Full-Stack Developer</p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="2023"
-          iconStyle={{ background: "#00072D", color: "#fff" }}
-          icon={<WorkOutlined />}
-        >
-          <h3 className="vertical-timeline-element-title">Scale AI</h3>
-          <p>AI Trainer, Computer Science and Software Development</p>
+          <h3 className="vertical-timeline-element-title">
+            Sacred Heart University
+          </h3>
+          <p>Business Administration</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
