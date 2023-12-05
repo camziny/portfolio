@@ -4,8 +4,26 @@ import tripLogo from "../assets/tripLogo.png";
 import portfolio from "../assets/portfolio.png";
 import zfit from "../assets/zfit.png";
 import humanOrAiLogo from "../assets/humanOrAiLogo.png";
+import sightseeshare from "../assets/sight-see-share.png";
+import divox from "../assets/divox.png";
 
 export const ProjectsList = [
+  {
+    name: "divoxutils",
+    image: divox,
+    skills:
+      "Divoxutils is a web application inspired by the legacy of daocutils and other notable predecessors like gimpchimp. Designed to fill the gap left by daocutils, it serves as a dynamic hub for Dark Age of Camelot enthusiasts. Built using Next.js, PostgreSQL, Prisma, and TypeScript, and deployed on Vercel, this project combines robust technology with a passion for gaming.",
+    link: "https://divoxutils.com/",
+    github: "https://github.com/camziny/divoxutils",
+  },
+  {
+    name: "Sight.See.Share",
+    image: sightseeshare,
+    skills:
+      "Sight.See.Share is a repository where users can share unique, exciting, and exceptional points of interest that they have found in their travels. This application was built using an Express, Node.js, React, and PostgreSql.",
+    link: "https://sightseeshare.netlify.app/",
+    github: "https://github.com/chingu-voyages/v45-tier3-team-47",
+  },
   {
     name: "Human or AI",
     image: humanOrAiLogo,
@@ -42,7 +60,7 @@ export const ProjectsList = [
     name: "Personal Portfolio",
     image: portfolio,
     skills:
-      "Created minimalist React app using custom CSS and Responsive Design, in order to display my experience, projects, and current skill set.",
+      "Created minimalist React app using Tailwind CSS and Responsive Design, in order to display my experience, projects, and current skill set.",
     link: "/",
     github: "https://github.com/camziny/portfolio",
   },

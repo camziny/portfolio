@@ -16,8 +16,26 @@ const Experience = () => {
           iconStyle={{ background: "#00072D", color: "#fff" }}
           icon={<WorkOutlined />}
         >
+          <h3 className="vertical-timeline-element-title">Dart Co.</h3>
+          <p>Software Developer</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2023"
+          iconStyle={{ background: "#00072D", color: "#fff" }}
+          icon={<WorkOutlined />}
+        >
+          <h3 className="vertical-timeline-element-title">Chingu</h3>
+          <p>Full-Stack Software Developer</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2023"
+          iconStyle={{ background: "#00072D", color: "#fff" }}
+          icon={<WorkOutlined />}
+        >
           <h3 className="vertical-timeline-element-title">myTindy</h3>
-          <p>Software Development Intern</p>
+          <p>Software Developer</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
